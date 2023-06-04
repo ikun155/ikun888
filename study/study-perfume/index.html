@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .clearfix::before,.clearfix::after{
+            content: "";
+            display: table;
+        }
+        .clearfix::after{
+            clear: both;
+        }
+        .box{
+            width: 451px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            border: 1px solid blue;   
+        }
+        .imgas{
+            
+            width: 541px;
+            height: 406px;
+            margin-top: 120px;
+        }
+        .imgas img{
+            float: left;
+            width: 271px; 
+            background-color: #f3ebe3;
+            
+        }
+        .www .tile h2{
+            float: left;
+            margin: 30px;
+            letter-spacing: 7px;
+            font-size: 10px;
+            color: #b1b1b1;
+        }
+        .nn dd{
+             float: left;
+            margin-left: 30px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .wen dl{
+            float: left;
+            margin-top: 30px;
+        }
+        .wen dt{
+            margin-bottom: 13px;
+            margin: 0 30px;
+            font-size: 10px;
+            color: #8d8d90;
+        }
+        .ping{
+            float: left;
+            display: inline;
+        }
+        .ping p{
+            margin-left: 30px;
+            margin-top: 35px;
+            font-size: 23px;
+            color: #3d8268;
+        }
+        .ping p::after{
+            content: "$169.99";
+            margin-left: 18px;
+            text-decoration: line-through;
+            font-size: 9px;
+            color: #8d8d90;
+        }
+        .dd{
+            float: left;
+        }
+        .dd{
+            margin-left: 30px;
+            margin-top: 15px;
+            padding-top: 16px;
+            
+            width: 212px;
+            height: 43px;
+            background-color: #3d8268;
+        }
+        .dd p{
+            font-size: 10px;
+            padding-left: 79px;
+        }
+        .dd img{
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-left: 56px;
+            background-color: #3d8268;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="imgas box">
+        <img src="./images/image-product-desktop.jpg">
+        <div class="www">
+            <div class="tile">
+                <h2>PERFUME</h2>  
+            </div>
+        <div class="nn">
+            <dl>
+                <dd>Gabrielle</dd>
+                <dd>Essence Eau</dd>
+                <dd>De Parfum</dd>
+            </dl>
+        </div>
+        <div class="wen">
+            <dl>
+                <dt>A floral, solar and voluptuous</dt>
+                <dt>interpretation composed by</dt>
+                <dt>Olivier Polge, Perfumer-Creator</dt>
+                <dt>for the House of CHANEL.</dt>
+            </dl>
+        </div>
+        <div class="ping">
+            <p>$149.99</p>
+        </div>
+        <div class="dd">
+            <img src="./images/icon-cart.svg" alt="">
+            <p> Add to Cart</p>
+           
+           
+        </div>
+    </div>
+
+</body>
+</html>
